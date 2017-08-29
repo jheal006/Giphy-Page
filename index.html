@@ -4,33 +4,37 @@
     <meta charset="utf-8">
     <title>Giphy Page</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script
 			  src="https://code.jquery.com/jquery-3.2.1.min.js"
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
     <script
-			  src="assets/javascript/app.js"></script>
-
+      type="text/javascript" src="assets/javascript/app.js"></script>
   </head>
 
   <body>
       <header>
         GIPHY Buttons
       </header>
-
       <div class="topics">
-        Giphy Divs
+        Cars
       </div>
 
       <div class="search">
-        <form>
           Add a new Giphy!<br>
-          <input type="text" name="searchBox">
+        <form class="inputForm">
+          <input type="text" id="searchTerm"></input>
+          <br>
+          <button id="submit">Get New GIPHY!</button>
         </form>
       </div>
 
-
+      <div class="photos">
+        GIPHYS!
+      </div>
 
   </body>
+
 </html>
